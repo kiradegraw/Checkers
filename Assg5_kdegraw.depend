@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1508552383 source:z:\cs250\assg5_kdegraw\main.cpp
+	<iostream>
+	<cmath>
+	<stdlib.h>
+

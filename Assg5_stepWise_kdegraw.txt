@@ -1,0 +1,175 @@
+// Determine winner of checkers game
+
+
+// Determine winner of checkers game
+//* set current player to red
+//* get players moves while players have less than 3 points 
+//* display the winner 
+
+
+// Determine winner of checkers game
+//* set current player to red
+//* get players moves while players have less than 3 points 
+//** get players piece to move while piece is not valid
+//*** ask current player for piece to move (x,y)
+//** get players place to move while move is not valid
+//*** ask current player for place to move piece
+//** after a player has hit 3 points
+//* display the winner 
+ 
+
+// Determine winner of checkers game
+//* set current player to red
+//* get players moves while players have less than 3 points 
+//** get players piece to move while piece is not valid
+//*** ask current player for piece to move (x,y)
+//**** determine if piece is valid
+//***** if pos is occupied by the current players piece
+//****** return true, save coordinates
+//***** else
+//****** invalid, ask player again
+//** get players place to move while move is not valid
+//*** ask current player for place to move piece
+//**** determine if place is valid
+//** if player entered -1 -1
+//*** let player know they skipped their turn
+//** else 
+//*** move piece
+//** print board 
+//** print points
+//** after a player has hit 3 points
+//* display the winner 
+
+
+// Determine winner of checkers game
+//* set current player to red
+//* get players moves while players have less than 3 points 
+//** get players piece to move while piece is not valid
+//*** ask current player for piece to move (x,y)
+//**** determine if piece is valid
+//***** if pos is occupied by the current players piece
+//****** return true, save coordinates
+//***** else
+//****** invalid, ask player again
+//** get players place to move while move is not valid
+//*** ask current player for place to move piece
+//**** determine if place is valid
+//***** if player entered -1 -1
+//****** return true
+//***** else if the player wants to move one spot and the space is empty
+//****** return true
+//***** else if the player wants to move two spots and the space is empty
+//****** determine the coordinates in the middle (jump coordinates)
+//***** else
+//****** invalid move, return false, ask player again
+//** if player entered -1 -1
+//*** let player know they skipped their turn
+//** else 
+//*** move piece
+//*** if player jumped another piece
+//**** add point
+//** print board 
+//*** print function prints current values from array
+//** print points
+//*** displays current points
+//** after a player has hit 3 points
+//* display the winner 
+
+
+// Determine winner of checkers game
+//* set current player to red
+//* get players moves while players have less than 3 points 
+//** get players piece to move while piece is not valid
+//*** ask current player for piece to move (x,y)
+//**** determine if piece is valid
+//***** if pos is occupied by the current players piece
+//****** return true, save coordinates
+//***** else
+//****** invalid, ask player again
+//** get players place to move while move is not valid
+//*** ask current player for place to move piece
+//**** determine if place is valid
+//***** if player entered -1 -1
+//****** return true
+//***** else if the player wants to move one spot and the space is empty
+//****** return true
+//***** else if the player wants to move two spots and the space is empty
+//****** determine the coordinates in the middle (jump coordinates)
+//****** if piece in the middle is of opposite color
+//******* return true
+//****** else
+//******* error message, return false
+//****** if numbers on pieces are the same
+//******* return true
+//****** else
+//******* return false
+//***** else
+//****** invalid move, return false, ask player again
+//** if player entered -1 -1
+//*** let player know they skipped their turn
+//** else 
+//*** move piece
+//*** if player jumped another piece
+//**** add point
+//** print board 
+//*** print function prints current values from array
+//** print points
+//*** displays current points
+//** if current player is red
+//*** change current player to black before looping
+//** else if current player is black
+//*** change current player to red before looping
+//** after a player has hit 3 points
+//* display the winner 
+
+
+// Determine winner of checkers game
+//* set current player to red
+//* get players moves while players have less than 3 points 
+//** get players piece to move while piece is not valid
+//*** ask current player for piece to move (x,y)
+//**** determine if piece is valid
+//***** if pos is occupied by the current players piece
+//****** return true, save coordinates
+//***** else
+//****** invalid, ask player again
+//** get players place to move while move is not valid
+//*** ask current player for place to move piece
+//**** determine if place is valid
+//***** if player entered -1 -1
+//****** return true
+//***** else if the player wants to move one spot and the space is empty
+//****** return true
+//***** else if the player wants to move two spots and the space is empty
+//****** determine the coordinates in the middle (jump coordinates)
+//****** if piece in the middle is of opposite color
+//******* return true
+//****** else
+//******* error message, return false
+//****** if numbers on pieces are the same
+//******* return true
+//****** else
+//******* return false
+//***** else
+//****** invalid move, return false, ask player again
+//** if player entered -1 -1
+//*** let player know they skipped their turn
+//** else 
+//*** move piece
+//**** check pos to find current piece number
+//**** set array for old position to 0
+//**** set array for new position to its correct number
+//*** if player jumped another piece
+//**** add point
+//***** set jumped piece array to 0
+//***** increase current players points by 1
+//** print board 
+//*** print function prints current values from array
+//** print points
+//*** displays current points
+//** if current player is red
+//*** change current player to black before looping
+//** else if current player is black
+//*** change current player to red before looping
+//** after a player has hit 3 points
+//* display the winner
